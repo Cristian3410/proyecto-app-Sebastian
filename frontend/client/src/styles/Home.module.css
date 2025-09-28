@@ -1,0 +1,66 @@
+.VideoWrapper{
+      flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.VideoBackground{
+     width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Generos{
+    flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.imagen{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay{
+ position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+    background-color: white;
+  padding: 14px 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+   font-family: "GraffitiJedagraphicx";
+}
+
+.btn:hover{
+     background: black;
+  color: white;
+  transform: scale(1.05);
+}
+
+.brngroup{
+     display: flex;
+  gap: 2rem;
+}

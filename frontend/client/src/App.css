@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Knewave&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Rubik+Dirt&display=swap');
+
+
+@font-face {
+  font-family: "GraffitiJedagraphicx";
+  src: url("./assets/fonts/GRAFITI-jedagraphicx.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
+
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+    padding: 0;
+    overflow: hidden; 
+      font-family: "GraffitiJedagraphicx", sans-serif;
+        background: #121212;;
+}
+
+
+
+
+
+body{
+   margin: 0;        
+  padding: 0;
+}

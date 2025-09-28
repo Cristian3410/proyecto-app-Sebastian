@@ -1,0 +1,80 @@
+.containerPrincipal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+}
+
+.men{
+   height: 550px;
+   position: relative;
+}
+
+.women{
+     height: 550px;
+       position: relative;
+       
+}
+
+.ImgContent{
+   position: relative;
+}
+
+.men a{
+position: absolute;
+color: azure;
+z-index: 1;
+top: 50%;
+left: 0;
+font-size: x-large;
+text-decoration: none;
+margin-left: 20px;
+}
+
+
+.women a{
+position: absolute;
+color: azure;
+z-index: 1;
+top: 50%;
+left: 0;
+font-size: x-large;
+text-decoration: none;
+margin-left: 20px;
+}
+
+
+
+
+@media(max-width:800px){
+ .containerPrincipal{
+    display: grid;
+     grid-template-columns: repeat(1, 1fr);
+ }
+   .men{
+    height: auto;
+    max-height: 300px;
+   }
+
+   .women{
+    height: auto;
+    max-height: 300px;
+   }
+
+   .overlay a{
+    font-size: xx-large;
+   }
+
+    .overlay2{
+     top: 50%;
+    left: 50%;
+    transform: translate(-450%, 1250%);
+    text-align: center;
+   }
+
+   .overlay2 a{
+    
+   }
+
+  
+
+}

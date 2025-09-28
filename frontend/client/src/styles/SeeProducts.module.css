@@ -1,0 +1,230 @@
+.Container{
+    width: 99.7%;
+    height: 900px;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+
+
+.ProductContent{
+    display: flex;
+      height: 800px;    
+       width: 100%;
+}
+
+.container2{
+   width: 40%;
+   height: 500px;
+   margin-top:5px;
+   margin-right: 10px;
+   overflow: hidden;
+}
+
+.TextContainer{
+    border: 1px solid #ffffff;
+        height: 500px;
+    width: 58%;
+      margin-right: 8px;
+      margin-top: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+}
+
+.container1{
+    border: 1px solid #ffffff;
+}
+
+.container2 p{
+     border: 1px solid #ffffff;
+}
+.carousel{
+ display: flex;
+ flex-direction: column;
+ padding: 0;
+ margin: 0;
+margin-top: 4px;
+margin-left: 10px;
+gap: 0.5rem;
+margin-right: 10px; 
+}
+
+
+.img1{
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 118px;
+}
+
+.Card{
+ height: 50x;
+ border: 1px solid #ffffff;
+ margin: 1px;
+
+}
+
+
+.TextContainer p{
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.twosection p{
+    color: #ffffff;
+}
+
+.Icon{
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.Colores{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+
+.boton{
+    background-color: rgb(151, 151, 237);
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    color: #ffffff;
+        justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.wrapper{
+      max-width:1200px ;
+     width: 150%;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.wrapper .Mini{
+    display: grid;
+      grid-auto-flow: column;
+       grid-auto-columns: calc((101% / 4) - 12px);
+      gap: 12px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+       scrollbar-width:0;
+}
+
+
+.Mini .card{
+    scroll-snap-align: start;
+       height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          flex-direction: column;
+          cursor: pointer;
+           overflow: hidden;
+           border: 1px solid;
+}
+
+
+
+.twosection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Mini::-webkit-scrollbar{
+    display: none;
+}
+
+.derecha{
+ position: absolute;
+ top: 50%;
+ right: 0;
+ border-radius: 50%;
+  width: 50px;
+ height: 50px;
+ font-size: large;
+ background: #ffffff;
+ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+ cursor: pointer;   
+}
+
+.izquierda{
+ position: absolute;
+ top: 0;
+ top: 50%;
+left: 0; 
+border-radius: 50%;
+ font-size: large;
+ width: 50px;
+ height: 50px;
+  background: #ffffff;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+   cursor: pointer;
+}
+
+.Titulo{
+    display: flex;
+}
+
+.TextContent{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+         width: 100%;
+      height: 200px;
+      font-size: small;
+      gap: 1rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
+       border: 1px solid #ffffff;
+       background: #ffffff;
+}
+
+.TextContent p{
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    color: black;
+}
+
+.ImagenesSol{
+    height: 380px;
+    width: 100%;
+    border: 1px solid  #ffffff;
+}
+
+.Boton2{
+    background: rgb(68, 216, 68);
+    color: #ffffff;
+    margin-left: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.Icono{
+    margin-right: 10px;
+}
+
+.imagen{
+    width: 100%;
+    margin-top:-40px;
+}
