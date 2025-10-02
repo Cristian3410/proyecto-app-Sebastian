@@ -19,7 +19,7 @@ function App() {
      <Routes>
        <Route path='/' element={<MainContext/>}/>
        <Route path='/producto/:id' element={<SeeProducts/>}/>
-       <Route path='/:genero' element={<ProductCatalog/>}/>
+       <Route path='/categoria/:tipo' element={<ProductCatalog/>}/>
      </Routes>
      <InfoPage/>
      <FooterPage/>

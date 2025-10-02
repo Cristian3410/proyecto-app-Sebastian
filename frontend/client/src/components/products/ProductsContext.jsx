@@ -1,10 +1,15 @@
 import styles from "../../styles/Products.module.css"
 import {CATEGORIESDATA} from "../../utils/Data.jsx"
+import { useNavigate } from "react-router-dom"
 
 
 function ProductsPage(){
 
+  const navigate = useNavigate()
 
+  const handleCategoryClick = (categoria) => {
+    navigate(`/categoria/${categoria}`)
+  }  
 
 
     return(
@@ -13,7 +18,9 @@ function ProductsPage(){
         <section className={styles.container}>
             <div className={styles.ContainerCard}>
               { CATEGORIESDATA.map((item,id)=>(                
-                 <div key={item.id} className={styles.card}>
+                 <div key={item.id} className={styles.card}
+                 onClick={() => handleCategoryClick(item.texto)}
+                 >
                     <img src={item.imagen} className={item.id === "2" || item.id ==="3" ? styles.containImg : ""}
                     
                     />

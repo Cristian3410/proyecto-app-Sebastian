@@ -1,27 +1,36 @@
 .body{
     width: 100%;
-    height: 2400px;
+    height: 24800px;
     margin-top: 110px;
- border: 2px solid rgb(82, 74, 74);
 }
 
 .cardContainer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    background: #121212;;
-     border: 2px solid firebrick;
+       background: #1e1e1e;
 }
 
 .card{
-    height: 460px;
-    border: 1px solid;
-      background: #121212;
+    height:630px;
+    width: 311px;
+      background: #1e1e1e;
+      overflow: hidden;
+      position: relative;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+       border: 1px solid rgba(255, 255, 255, 0.2);
+     
+}
+
+
+.card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
 }
 
 .Titulo{
     display: flex;
     margin-left: 10px;
-      background: #121212;
+      color: #ffffff;
 }
 
 .Filtros{
@@ -33,19 +42,154 @@
 }
 
 .Filtros p{
-    border: 1px solid;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 10px;
-      background: #121212;
+    padding: 10px 10px;
+  border-radius: 25px;
+  font-size: 12px;
+  background: #2a2a2a;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.Imagen{
-    height: 350px;
-      background: #121212;
+
+.Filtros p:hover {
+  background: #4CAF50;
+  transform: scale(1.05);
+}
+
+.Text{
+  width: 90%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+ text-align: start;
+ gap: 0.5rem;
 }
 
 .Text p{
-    font-size: 15px;
-      background: #121212;
+    font-size: 14px;
+      color: #ffffff;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      margin-left: 10px;
+}
+
+.Icono{
+  color: #ffffff;
+}
+
+.imagenProducto{
+width: 100%;
+height: 100%;
+  object-fit: cover;
+  display: block;
+   transition: opacity 0.5s ease; 
+   object-position: center;
+}
+
+
+.imgContainer{
+  position: relative;
+  display: flex;
+    border: 2px solid #ffffff;
+    width: 100%;
+    overflow: hidden;
+      transition: opacity 0.5s ease;
+      overflow-x: scroll;
+       scroll-behavior: smooth; 
+}
+
+.imgContainer::-webkit-scrollbar{
+  display: none;
+}
+
+
+.CarruselLeft{
+  position: absolute;
+ top: 30%;
+  left: 0;
+  font-size:medium;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.9);
+  color: #121212;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.carruselRight{
+ position: absolute;
+ top: 30%;
+  right: 0;
+   z-index: 2;
+   font-size:medium;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.9);
+  color: #121212;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.iconoCarro{
+  margin-top: 10px;
+   background: #ffffff; 
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+   transition: transform 0.3s ease, background 0.3s ease;
+  margin-left: 10px;
+}
+
+
+.iconoCarro:hover{
+  transform: scale(1.2);
+  background: #f0f0f0; 
+}
+
+.sizeBox{
+    position: absolute;
+  background: #121212;
+  width: 100%;
+  top: 62%;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(10px);
+
+  transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.sizeBox.show{
+  max-height: 200px; 
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.CarruselLeft:hover, .carruselRight:hover {
+  background: #dcdddc; 
+  color: #000000;
+  transform: scale(1.1);
+}
+
+.colorBox{
+    border: 1px solid rgba(255, 255, 255, 0.76);
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
 }

@@ -7,6 +7,8 @@ import { useRef } from "react";
 import { MdOutlineWhatsapp } from "react-icons/md";
 
 
+
+
  function SeeProducts(){
 
   const { id } = useParams();

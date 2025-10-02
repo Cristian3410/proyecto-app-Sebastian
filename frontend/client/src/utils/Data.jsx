@@ -1,32 +1,23 @@
-import PrincCamisa from "../public/imgs/camisaPrincipal2.jpg"
 import PantalonPrincipal from "../public/imgs/pantalonPrincipal.jpg"
 import principalChaqueta from "../public/imgs/PrincipalChaqueta.jpg"
 import principalGorra from "../public/imgs/gorraPrincipal.jpg"
+import principalCamisa from "../public/imgs/producto20.jpg"
 import producto1 from "../public/imgs/producto1.jpg"
 import Producto1Atras from "../public/imgs/Producto1Atras.jpg" 
-import producto2 from "../public/imgs/fotografia2Adelante.jpg"
-import producto2Atras from "../public/imgs/fotografia2Atras.jpg"
-
+import producto2 from "../public/imgs/producto2.jpg"
+import producto2Atras from "../public/imgs/producto2Atras.jpg"
 import producto3 from "../public/imgs/producto3.jpg"
 import producto3Atras from "../public/imgs/producto3Atras.jpg"
-
 import producto4 from "../public/imgs/producto4.jpg"
 import producto4Atras from "../public/imgs/producto4Atras.jpg"
-
 import prodcuto5 from "../public/imgs/producto5.jpg"
 import producto5Atras from "../public/imgs/producto5Atras.jpg"
-
 import producto6 from "../public/imgs/producto6.jpg"
 import producto6Atras from "../public/imgs/producto6Atras.jpg"
-
-
-
-
-
-import prodcuto7 from "../public/imgs/producto7.png"
-import prodcuto8 from "../public/imgs/producto8.png"
-import prodcuto9 from "../public/imgs/producto9.png"
-import prodcuto10 from "../public/imgs/producto10.png"
+import producto7 from "../public/imgs/producto7.jpg"
+import producto8 from "../public/imgs/producto8.jpg"
+import producto9 from "../public/imgs/producto9.jpg"
+import producto10 from "../public/imgs/producto10.jpg"
 
 
 
@@ -35,7 +26,7 @@ import prodcuto10 from "../public/imgs/producto10.png"
 export const CATEGORIESDATA = [
 
 {  id:"1",
-   imagen:PrincCamisa,
+   imagen:principalCamisa,
    texto:"camisetas y camisas"
 },
 {  id:"2",
@@ -120,13 +111,13 @@ export const SAMPLEDATA = [
 
 
 export const PRODUCTSDATA = [
-    {id:"1",imagenes:[prodcuto7],nombreProducto:"Camisa Terra",talla:"s",color:"#3c3c3c"},
+    {id:"1",imagenes:[producto7],nombreProducto:"Camisa Terra",talla:"s",color:"#3c3c3c"},
 
-    {id:"2",imagenes:[prodcuto8],nombreProducto:"Camisa Terra",talla:"s", color:"#c8b89f"},
+    {id:"2",imagenes:[producto8],nombreProducto:"Camisa Terra",talla:"s", color:"#c8b89f"},
     
-    {id:"3", imagenes:[prodcuto9],nombreProducto:"Camisa Terra",talla:"s",color:"#f28d30"},
+    {id:"3", imagenes:[producto9],nombreProducto:"Camisa Terra",talla:"s",color:"#f28d30"},
        
-    {id:"4" , imagenes:[prodcuto10],nombreProducto:"Camisa Terra", talla:"s", color:"#c32626"},
+    {id:"4" , imagenes:[producto10],nombreProducto:"Camisa Terra", talla:"s", color:"#c32626"},
 ]
 
 
